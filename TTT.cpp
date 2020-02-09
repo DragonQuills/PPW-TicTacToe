@@ -35,3 +35,12 @@ void TTT::SetSquareValue(Position pos, SquareType value){
   }
   return;
 }
+
+void TTT::CreateBoard(){
+  for(int i = 0; i < rows_; i++){
+    for(int j = 0; j < cols_; j++){
+      Position new_pos = Position(i, j);
+      this->SetSquareValue(new_pos, SquareType::Empty);
+    }
+  }
+}
