@@ -40,7 +40,7 @@ public:
   void DisplayBoard();
 
   // Prompt for a position and verify it
-  int GetPlayerChoice();
+  Position GetPlayerChoice();
 
   // Chance the square at pos to the given SquareType
   void PlaceMarker(Position pos, SquareType sq);
