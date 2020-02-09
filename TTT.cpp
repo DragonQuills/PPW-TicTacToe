@@ -10,6 +10,11 @@ std::string SquareTypeStringify(SquareType sq){
   return EmojiMap[sq];
 }
 
+TTT::TTT(){
+  rows_ = this->get_rows();
+  cols_ = this->get_cols();
+  return;
+}
 
 SquareType TTT::get_square_value(Position pos) const{
   if( (pos.row >= 0 && pos.row <rows_) && (pos.col >= 0 && pos.col < cols_)){

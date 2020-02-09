@@ -23,6 +23,7 @@ std::string SquareTypeStringify(SquareType sq);
 
 class TTT{
 public:
+	TTT();
   // already implemented in line
   int get_rows() const {return sizeof(arr_) / sizeof(arr_[0]); }  // code to find size of a 2d array from
   int get_cols() const {return sizeof(arr_[0]) / sizeof(int); }		// https://stackoverflow.com/questions/10274162/how-to-find-2d-array-size-in-c
