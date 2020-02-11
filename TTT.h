@@ -49,5 +49,5 @@ private:
   SquareType arr_[3][3];
 
 	int rows_; // might be convenient but not necessary
-	int cols_;
+	int cols_; 
 };
