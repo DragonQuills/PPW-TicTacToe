@@ -5,6 +5,6 @@ int main() {
   ttt->CreateBoard();
 
   ttt->DisplayBoard();
-
+  Position p = ttt->GetPlayerChoice();
   return 0;
 }
