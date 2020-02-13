@@ -54,3 +54,8 @@ void TTT::DisplayBoard(){
     std::cout << "\n";
   }
 }
+
+void TTT::PlaceMarker(Position pos, SquareType sq){
+  SetSquareValue(pos, sq);
+}
+
