@@ -44,3 +44,13 @@ void TTT::CreateBoard(){
     }
   }
 }
+
+void TTT::DisplayBoard(){
+  for(int i = 0; i < rows_; i++){
+    for(int j = 0; j < cols_; j++){
+      SquareType sq =this->get_square_value(Position(i, j));
+      std::cout << SquareTypeStringify(sq);
+    }
+    std::cout << "\n";
+  }
+}
