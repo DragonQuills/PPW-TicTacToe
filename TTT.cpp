@@ -55,7 +55,48 @@ void TTT::DisplayBoard(){
   }
 }
 
+<<<<<<< HEAD
 void TTT::PlaceMarker(Position pos, SquareType sq){
   SetSquareValue(pos, sq);
 }
 
+=======
+Position TTT::GetPlayerChoice(){
+  int row = -1;
+  int col = -1;
+  while((row < 0 || row > rows_) || (col < 0 || col > cols_)){
+    std::cout << "What row would you like to place your marker on?" << std::endl;
+    std::string temp = "";
+    std::cin>>temp;
+    try{
+      row = std::stoi(temp);
+    }
+    catch(...){
+      std::cout << "That isn't a number. Try again.\n";
+      continue;
+    }
+    std::cout << "What column would you like to place your marker on?" << std::endl;
+    std::cin>>temp;
+    try{
+      col = std::stoi(temp);
+    }
+    catch(...){
+      std::cout << "That isn't a number. Try again.\n";
+      continue;
+    }
+    std::cout << "You picked (" << row << ", " << col << ")\n";
+    std::cout << "Is this correct? (y/n)\n";
+    std::string choice;
+    std::cin>>choice;
+    if(choice != "y"){
+      row = -1;
+      col = -1;
+      continue;
+    }
+    if ((row < 0 || row > rows_) || (col < 0 || col > cols_)){
+      std::cout<<"Invalid choice. Please pick a row and column on the board.\n";
+    }
+  }
+  return Position(row-1, col-1);
+}
+>>>>>>> 6a282583ac477674667925ee7be7d98a60897cc6
