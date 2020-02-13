@@ -55,12 +55,10 @@ void TTT::DisplayBoard(){
   }
 }
 
-<<<<<<< HEAD
 void TTT::PlaceMarker(Position pos, SquareType sq){
   SetSquareValue(pos, sq);
 }
 
-=======
 Position TTT::GetPlayerChoice(){
   int row = -1;
   int col = -1;
@@ -99,4 +97,3 @@ Position TTT::GetPlayerChoice(){
   }
   return Position(row-1, col-1);
 }
->>>>>>> 6a282583ac477674667925ee7be7d98a60897cc6
