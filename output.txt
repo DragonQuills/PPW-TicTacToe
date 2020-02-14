@@ -1,0 +1,100 @@
+./TicTacToe
+⬜⬜⬜
+⬜⬜⬜
+⬜⬜⬜
+It is currently O's turn.
+What row would you like to place your marker on?
+2
+What column would you like to place your marker on?
+2
+You picked (2, 2)
+Is this correct? (y/n)
+y
+⬜⬜⬜
+⬜⭕⬜
+⬜⬜⬜
+It is currently X's turn.
+What row would you like to place your marker on?
+1
+What column would you like to place your marker on?
+1
+You picked (1, 1)
+Is this correct? (y/n)
+y
+❌⬜⬜
+⬜⭕⬜
+⬜⬜⬜
+It is currently O's turn.
+What row would you like to place your marker on?
+1
+What column would you like to place your marker on?
+2
+You picked (1, 2)
+Is this correct? (y/n)
+y
+❌⭕⬜
+⬜⭕⬜
+⬜⬜⬜
+It is currently X's turn.
+What row would you like to place your marker on?
+3
+What column would you like to place your marker on?
+2
+You picked (3, 2)
+Is this correct? (y/n)
+y
+❌⭕⬜
+⬜⭕⬜
+⬜❌⬜
+It is currently O's turn.
+What row would you like to place your marker on?
+3
+What column would you like to place your marker on?
+1
+You picked (3, 1)
+Is this correct? (y/n)
+y
+❌⭕⬜
+⬜⭕⬜
+⭕❌⬜
+It is currently X's turn.
+What row would you like to place your marker on?
+1
+What column would you like to place your marker on?
+3
+You picked (1, 3)
+Is this correct? (y/n)
+y
+❌⭕❌
+⬜⭕⬜
+⭕❌⬜
+It is currently O's turn.
+What row would you like to place your marker on?
+2
+What column would you like to place your marker on?
+1
+You picked (2, 1)
+Is this correct? (y/n)
+y
+❌⭕❌
+⭕⭕⬜
+⭕❌⬜
+It is currently X's turn.
+What row would you like to place your marker on?
+2
+What column would you like to place your marker on?
+3
+You picked (2, 3)
+Is this correct? (y/n)
+y
+❌⭕❌
+⭕⭕❌
+⭕❌⬜
+It is currently O's turn.
+What row would you like to place your marker on?
+3
+What column would you like to place your marker on?
+3
+You picked (3, 3)
+Is this correct? (y/n)
+y

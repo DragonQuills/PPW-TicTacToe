@@ -3,7 +3,7 @@
 int main() {
   TTT *ttt = new TTT();
   ttt->CreateBoard();
-  SquareType curr_player = SquareType::X;
+  SquareType curr_player = SquareType::O;
   for(int i = 0; i < 9; i++){
     ttt->DisplayBoard();
     switch(curr_player){
