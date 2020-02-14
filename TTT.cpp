@@ -1,3 +1,9 @@
+/**
+Kayden Adams & Michael Ren
+PE 4
+This is the cpp file for the TTT class.
+*/
+
 #include "TTT.h"
 
 std::string SquareTypeStringify(SquareType sq){
@@ -59,6 +65,16 @@ void TTT::PlaceMarker(Position pos, SquareType sq){
   SetSquareValue(pos, sq);
 }
 
+// GetPlayerChoice
+/**
+    Prompts a player for the row and column they would like to place their mark on.
+    It will then confirm with the player what they chose is the correct mark.
+    It will then validate the mark the player picked, if the player says no or chooses an invalid mark,
+    the prompting will loop until a valid choice is made.
+
+    @param none
+    @return The position the player chooses
+*/
 Position TTT::GetPlayerChoice(){
   int row = -1;
   int col = -1;

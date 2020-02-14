@@ -1,3 +1,9 @@
+/**
+Kayden Adams & Michael Ren
+PE 4
+This is the header file for the TTT class.
+*/
+
 #include <iostream>
 #include <map> // to map SquareType to an emoji unicode
 
@@ -8,7 +14,7 @@ struct Position {
 	int row;
 	int col;
 
-	// already implemented for you!
+	// stolen from Kayden's HW4 code
 	bool operator==(const Position &other) {
 		return row == other.row && col == other.col;
 	}
@@ -49,5 +55,5 @@ private:
   SquareType arr_[3][3];
 
 	int rows_; // might be convenient but not necessary
-	int cols_; 
+	int cols_;
 };
